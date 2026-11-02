@@ -1,0 +1,47 @@
+# ==========================================
+# Dialr Contact Book Git Ignore
+# ==========================================
+
+# Portfolio website files (kept local, excluded from Dialr repo)
+/src/
+/index.html
+/style.css
+/package.json
+/package-lock.json
+/vite.config.js
+/public/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Java & Maven Build
+backend/target/
+backend/bin/
+target/
+bin/
+
+# Environment & Secrets
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+!frontend/.env.example
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
